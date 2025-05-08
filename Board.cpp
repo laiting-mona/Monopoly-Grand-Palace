@@ -22,3 +22,16 @@ void Board::displayBoard() {
         cout << endl;
     }
 }
+
+int Board::movePosition(int currentPos, int steps) const {
+    int totalTiles = size * size;                // 地圖上總格數
+    int newPos = currentPos + steps;             // 計算前進後的位置
+    // 環繞前進：如果 newPos 超過地圖最後，就從頭開始
+    if (newPos >= totalTiles) {
+        newPos %= totalTiles;
+    }
+    
+    // 如果不想環繞，而是停在邊界，改成：
+    if (newPos >= totalTiles) newPos = totalTiles - 1;
+    return newPos;
+}
