@@ -48,6 +48,16 @@ public:
      */
     void displayBoard();
 
+    /**
+    * @brief 計算移動後的新位置，確保不會跑出地圖外
+    * 
+    * @param currentPos 玩家當前格子索引（0 ~ size*size-1）
+    * @param steps      要前進的步數（如骰子點數）
+    * @return 新的格子索引（已做環繞或邊界檢查）
+    */
+    int movePosition(int currentPos, int steps) const;
+
+
 private:
     int size;                      ///< 地圖大小（預設為 8x8）
     vector<Tile> tiles;            ///< 遊戲地圖上的所有地格
