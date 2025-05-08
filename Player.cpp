@@ -1,27 +1,25 @@
 #include "Player.h"
 #include <iostream>
 
-/**
- * @brief «Øºc¤l¡A³Ð«Ø¤@­Óª±®a¨Ã³]¸mªì©lª÷ÃB
- *
- * @param name ª±®a¦WºÙ
- * @param startingMoney ªì©lª÷ÃB
- */
-Player::Player(string name, int startingMoney) : name(name), money(startingMoney) {}
+Player::Player(const std::string& name, int money)
+    : name_(name), money_(money) {}
 
-/**
- * @brief ½Õ¾ãª±®aª÷¿ú
- *
- * @param amount ­n½Õ¾ãªºª÷ÃB¡]¥¿­t¼Æ¡^
- */
 void Player::adjustMoney(int amount) {
-    money += amount;
+    money_ += amount;
 }
 
-/**
- * @brief Åã¥Üª±®aªº°ò¥»¸ê°T¡]¦WºÙ¡Bª÷¿ú¡^
- */
 void Player::displayPlayerStatus() const {
-    cout << "Player: " << name << endl;
-    cout << "Money: " << money << endl;
+    std::cout << name_ << " ç¾æœ‰é‡‘é¡: " << money_ << std::endl;
+}
+
+bool Player::hasWon(int winAmount) const {
+    return money_ >= winAmount;
+}
+
+int Player::getMoney() const {
+    return money_;
+}
+
+std::string Player::getName() const {
+    return name_;
 }
