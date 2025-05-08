@@ -1,8 +1,8 @@
 /**
- * @brief ¥Nªí¤@­Óª±®aªºÃş§O
+ * @brief ä»£è¡¨ä¸€å€‹ç©å®¶çš„é¡åˆ¥
  *
- * @details ¨C­Óª±®a¾Ö¦³©m¦W¡Bª÷¿ú¡B¤g¦a¡B¥d¤ùµ¥Äİ©Ê¡C
- * ª±®a·|½ü¬y¶i¦æ¹CÀ¸¡A¨Ã®Ú¾ÚÂY»ë¤lªºµ²ªG¦b¦a¹Ï¤W²¾°Ê¡C
+ * @details æ¯å€‹ç©å®¶æ“æœ‰å§“åã€é‡‘éŒ¢ã€åœŸåœ°ã€å¡ç‰‡ç­‰å±¬æ€§ã€‚
+ * ç©å®¶æœƒè¼ªæµé€²è¡ŒéŠæˆ²ï¼Œä¸¦æ ¹æ“šæ“²éª°å­çš„çµæœåœ¨åœ°åœ–ä¸Šç§»å‹•ã€‚
  *
  * @author Tingying Lai
  * @date 2025/05/05
@@ -16,28 +16,33 @@ using namespace std;
 class Player {
 public:
     /**
-     * @brief «Øºc¤l¡A³Ğ«Ø¤@­Óª±®a¨Ã³]¸mªì©lª÷ÃB
+     * @brief å»ºæ§‹å­ï¼Œå‰µå»ºä¸€å€‹ç©å®¶ä¸¦è¨­ç½®åˆå§‹é‡‘é¡
      *
-     * @param name ª±®a¦WºÙ
-     * @param startingMoney ªì©lª÷ÃB¡]¹w³]¬° 1500¡^
+     * @param name ç©å®¶åç¨±
+     * @param startingMoney åˆå§‹é‡‘é¡ï¼ˆé è¨­ç‚º 1500ï¼‰
      */
     Player(string name, int startingMoney = 1500);
 
     /**
-     * @brief ½Õ¾ãª±®aª÷¿ú¡A¥¿¼Æªí¥Ü¦¬¤J¡A­t¼Æªí¥Ü¤ä¥X
+     * @brief èª¿æ•´ç©å®¶é‡‘éŒ¢ï¼Œæ­£æ•¸è¡¨ç¤ºæ”¶å…¥ï¼Œè² æ•¸è¡¨ç¤ºæ”¯å‡º
      *
-     * @param amount ½Õ¾ãª÷ÃB¡]¥¿¼Æ©Î­t¼Æ¡^
+     * @param amount èª¿æ•´é‡‘é¡ï¼ˆæ­£æ•¸æˆ–è² æ•¸ï¼‰
      */
     void adjustMoney(int amount);
 
+    bool hasWon(int winAmount) const;
+
     /**
-     * @brief Åã¥Üª±®aªº°ò¥»¸ê°T¡]¦WºÙ¡Bª÷¿ú¡B¾Ö¦³ªº¤g¦aµ¥¡^
+     * @brief é¡¯ç¤ºç©å®¶çš„åŸºæœ¬è³‡è¨Šï¼ˆåç¨±ã€é‡‘éŒ¢ã€æ“æœ‰çš„åœŸåœ°ç­‰)
      */
     void displayPlayerStatus() const;
 
+    int getMoney() const;
+    std::string getName() const;
+
 private:
-    string name; ///< ª±®a¦WºÙ
-    int money;        ///< ª±®a¥Ø«eª÷¿ú
+    string name; ///< ç©å®¶åç¨±
+    int money;        ///< ç©å®¶ç›®å‰é‡‘éŒ¢
 };
 
 #endif // PLAYER_H
