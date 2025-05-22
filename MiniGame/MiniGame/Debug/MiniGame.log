@@ -1,0 +1,5 @@
+﻿  SheLongMen.cpp
+D:\MiniGame\MiniGame\SheLongMen.cpp(34,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\MiniGame\MiniGame\SheLongMen.cpp(56,88): warning C4244: 'argument': conversion from '__int64' to 'const int', possible loss of data
+D:\MiniGame\MiniGame\SheLongMen.cpp(57,92): warning C4244: 'argument': conversion from '__int64' to 'const int', possible loss of data
+  MiniGame.vcxproj -> D:\MiniGame\Debug\MiniGame.exe
