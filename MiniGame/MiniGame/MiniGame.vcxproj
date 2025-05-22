@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="HorseRace.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MysteryBox.cpp" />
     <ClCompile Include="SheLongMen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HorseRace.hpp" />
     <ClInclude Include="MiniGame.hpp" />
+    <ClInclude Include="MysteryBox.hpp" />
     <ClInclude Include="SheLongMen.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -9,5 +9,6 @@ public:
 
 #include "SheLongMen.hpp"	
 #include "HorseRace.hpp"
+#include "MysteryBox.hpp"
 
 #endif // !MINIGAME_HPP
