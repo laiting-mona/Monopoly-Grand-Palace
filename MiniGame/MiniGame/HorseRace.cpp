@@ -33,18 +33,14 @@ std::vector<int> HorseRace::race() {
 	bool end = false;
 
 	while (!end) {
-		for (int i = 0; i < 4; i++) {
-			horsePosition[i] += rand() % 3 + 1;
-		}
+		for (int i = 0; i < 4; i++) horsePosition[i] += rand() % 3 + 1;
 
 		std::system(CLEAR_SCREEN);
 		displayRace(horsePosition, trackLength);
 		std::this_thread::sleep_for(std::chrono::milliseconds(333));
 
 		for (int i = 0; i < 4; i++) {
-			if (horsePosition[i] >= trackLength) {
-				end = true;
-			}
+			if (horsePosition[i] >= trackLength) end = true;
 		}
 	}
 
@@ -52,9 +48,7 @@ std::vector<int> HorseRace::race() {
 	std::vector<int> winners;
 
 	for (int i = 0; i < 4; i++) {
-		if (horsePosition[i] == maxDist) {
-			winners.push_back(i + 1);
-		}
+		if (horsePosition[i] == maxDist) winners.push_back(i + 1);
 	}
 
 	return winners;
@@ -87,12 +81,9 @@ long long HorseRace::playGame(long long betAmount) {
 	std::cout << "\n";
 
 	if (std::find(winners.begin(), winners.end(), pickedHorse) != winners.end()) {
-		if (winners.size() == 1) {
-			std::cout << "Your horse won the race! WIN twice bet amount!!\n";
-		}
-		else {
-			std::cout << "Your horse tied for 1st! WIN twice bet amount!!\n";
-		}
+		if (winners.size() == 1) std::cout << "Your horse won the race! WIN twice bet amount!!\n";
+		else std::cout << "Your horse tied for 1st! WIN twice bet amount!!\n";
+
 		return betAmount * 2;
 	}
 	else {
