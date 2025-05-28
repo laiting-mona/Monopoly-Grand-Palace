@@ -194,7 +194,7 @@ Grande Palace Monopoly 是一款以經典壟斷遊戲為基礎的策略桌遊電
 ## 六、作者
 
 * 賴亭穎 (Tingying Lai)
-* 曾秀寧 (Hsuning Zeng)
+* 曾柔寧 (Jouning Tseng)
 * 林聖傑 (Shengjie Lin)
 * 倪瑞恩 (Ruien Ni)
 

@@ -7,12 +7,8 @@
 #include <exception>
 #include <iostream>
 #include <algorithm>
-#include <random>
-#include <limits> 
-
-#ifdef _WIN32
-#include <conio.h>
-#endif
+#include <random> 
+#include <stdlib.h>
 
 using namespace std;
 
@@ -41,13 +37,8 @@ int main() {
     std::cout << "                          |_|          |___/ \n";
 
     std::cout << "\n\n\n\n\n\nWelcome to the Monopoly Game!\n\n";
-    #ifdef _WIN32
-        std::cout << "Press any key to continue..." << std::endl;
-        _getch();
-    #else
-        std::cout << "Press ENTER to continue..." << std::endl;
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    #endif
+    std::cout << "Press ENTER to continue..." << std::endl;
+    std::cin.get();
 
     #ifdef _WIN32
         system("cls");
@@ -130,5 +121,7 @@ int main() {
 
     // End of game
     Board::destroyInstance();
+    
+    system("pause");
     return 0;
 }
