@@ -24,6 +24,7 @@ int main() {
     }
     catch (const std::exception& e) {
         cerr << "Config load error: " << e.what() << endl;
+        system("pause");
         return 1;
     }
 
