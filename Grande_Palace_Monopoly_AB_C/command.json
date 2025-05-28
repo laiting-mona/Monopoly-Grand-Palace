@@ -1,0 +1,20 @@
+//定義遊戲內可用的指令及事件設定，例如存檔、讀檔、Replay 模式切換等
+
+{
+  "save": {
+    "key": "S",
+    "description": "Save game progress"
+  },
+  "load": {
+    "key": "L",
+    "description": "Load game"
+  },
+  "replay": {
+    "key": "P",
+    "description": "Toggle replay mode"
+  },
+  "quit": {
+    "key": "Q",
+    "description": "Quit game"
+  }
+}

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\GameConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\CardStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Bank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\SingletonManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\GameRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\MiniGameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\BotPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\FateCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\RocketCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\DiceControlCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\BarrierCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\DemolitionCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\TollCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\MiniGameTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\StartTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\StoreTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\EventTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\HospitalTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\PropertyTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\MiniGames\DragonGateGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\MiniGames\HorseRaceGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\CommandManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\ChangePhaseCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\GainCardCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\GainMoneyCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\ListCommandsCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\MoveToCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\ShowAllPlayersCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\TransferMoneyCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\TriggerMiniGameCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Board.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Player.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\GameConfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\CardStore.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Bank.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\SingletonManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\GameRecorder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\MiniGameManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\InputManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\BotPlayer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Error.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\Card.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\FateCard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\RocketCard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\DiceControlCard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\BarrierCard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\DemolitionCard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Cards\TollCard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\Tile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\MiniGameTile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\StartTile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\StoreTile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\EventTile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\HospitalTile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Tiles\PropertyTile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\MiniGames\MiniGame.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\MiniGames\DragonGateGame.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\MiniGames\HorseRaceGame.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\Command.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\CommandManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\ChangePhaseCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\GainCardCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\GainMoneyCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\ListCommandsCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\MoveToCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\ShowAllPlayersCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\TransferMoneyCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Commands\TriggerMiniGameCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0C5FE4EB-8EF5-365E-ABA3-3A0B969B2179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9BCF7C8A-CC43-359C-8C9D-D3544760F5E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

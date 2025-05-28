@@ -1,0 +1,6 @@
+﻿  TollCard.cpp
+C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game/Game.hpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  Game.cpp
+C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Game\Game.hpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  正在產生程式碼...
+  GrandePalaceMonopoly.vcxproj -> C:\Users\user\Downloads\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\Grande_Palace_Monopoly_AB_C\build\Debug\GrandePalaceMonopoly.exe

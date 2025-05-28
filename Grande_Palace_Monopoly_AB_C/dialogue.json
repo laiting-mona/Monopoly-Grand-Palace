@@ -1,0 +1,31 @@
+// 定義遊戲中的提示語句，例如各種狀態下的文字提醒（包含小遊戲的提示、勝利或失敗訊息）
+
+{
+  "mini_game": {
+    "dragon_gate": {
+      "intro": "Welcome to the Dragon Gate game! Try to draw a card between two other cards.",
+      "prompt_bet": "Enter your bet amount:",
+      "prompt_continue": "Do you want to try double or nothing? (Y/N)",
+      "win": "Congratulations, the third card is in between! You win!",
+      "lose": "Sorry, the third card was not in between. You lose."
+    },
+    "horse_race": {
+      "intro": "Welcome to the Horse Race game! Choose a horse and see if it wins.",
+      "prompt_bet": "Enter your bet amount:",
+      "prompt_choose": "Choose a horse to bet on:",
+      "win": "Congratulations! Your horse won the race!",
+      "lose": "Your horse didn't win. Better luck next time!"
+    }
+  },
+  "victory_message": {
+    "win_money": "Congratulations! You have reached the target money and won the game!",
+    "last_player": "Congratulations! You are the last player standing and won the game!",
+    "time_up": "Time's up! The player with the highest wealth wins!"
+  },
+  "game_events": {
+    "save": "Game has been saved.",
+    "load": "Game has been loaded.",
+    "replay_on": "Replay mode is now ON.",
+    "replay_off": "Replay mode is now OFF."
+  }
+}

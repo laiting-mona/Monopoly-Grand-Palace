@@ -1,0 +1,90 @@
+[
+  {
+    "turn": 1,
+    "player": "玩家A",
+    "action": "DiceRoll",
+    "result": 7
+  },
+  {
+    "turn": 1,
+    "player": "玩家A",
+    "action": "Move",
+    "from": 0,
+    "to": 7
+  },
+  {
+    "turn": 1,
+    "player": "玩家A",
+    "action": "BuyProperty",
+    "property": "Baltic Avenue",
+    "price": 100
+  },
+  {
+    "turn": 2,
+    "player": "玩家B",
+    "action": "DiceRoll",
+    "result": 4
+  },
+  {
+    "turn": 2,
+    "player": "玩家B",
+    "action": "Move",
+    "from": 0,
+    "to": 4
+  },
+  {
+    "turn": 2,
+    "player": "玩家B",
+    "action": "PayRent",
+    "paidTo": "玩家A",
+    "amount": 10
+  },
+  {
+    "turn": 3,
+    "player": "玩家A",
+    "action": "DiceRoll",
+    "result": 6
+  },
+  {
+    "turn": 3,
+    "player": "玩家A",
+    "action": "Move",
+    "from": 7,
+    "to": 13
+  },
+  {
+    "turn": 3,
+    "player": "玩家A",
+    "action": "UpgradeProperty",
+    "property": "Baltic Avenue",
+    "upgradeLevel": 2,
+    "cost": 50
+  },
+  {
+    "turn": 4,
+    "player": "玩家B",
+    "action": "DiceRoll",
+    "result": 5
+  },
+  {
+    "turn": 4,
+    "player": "玩家B",
+    "action": "Move",
+    "from": 4,
+    "to": 9
+  },
+  {
+    "turn": 4,
+    "player": "玩家B",
+    "action": "CardUse",
+    "card": "RocketCard",
+    "target": "玩家A"
+  },
+  {
+    "turn": 5,
+    "player": "玩家A",
+    "action": "SellProperty",
+    "property": "Baltic Avenue",
+    "sellPrice": 150
+  }
+]

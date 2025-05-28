@@ -1,0 +1,29 @@
+{
+  "turnNumber": 3,
+  "nextPlayerIndex": 1,
+  "players": [
+    {
+      "name": "ª±®aA",
+      "position": 13,
+      "money": 860,
+      "isBankrupt": false,
+      "isInHospital": false,
+      "hospitalRoundLeft": 0,
+      "properties": [
+        {
+          "id": 7,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "ª±®aB",
+      "position": 4,
+      "money": 990,
+      "isBankrupt": false,
+      "isInHospital": false,
+      "hospitalRoundLeft": 0,
+      "properties": []
+    }
+  ]
+}
